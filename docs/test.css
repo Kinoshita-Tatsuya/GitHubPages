@@ -19,3 +19,10 @@
 {
   content: "hello,world";
 }
+
+@media Screen and (max-width:479px)
+{
+  div{float: none;}
+  .big,.middle{width:100%;}
+  .small{width: 50%;}
+}
