@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 
-.parent:hover::before
+.parent:active::before
 {
   content: "hello,world";
 }
