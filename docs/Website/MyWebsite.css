@@ -1,0 +1,159 @@
+html,body
+{
+    margin: 0 0;
+}
+
+.BackGround
+{
+    width: 100%;
+    background-size: cover;
+
+    filter: blur(6px);
+}
+
+.Catchphrase
+{
+    font-size: 100px;
+    font-weight: 100;
+    font-family: 'Courier new';
+    letter-spacing: 30px;
+
+    text-shadow: 
+     0px 0px 15px rgb(100, 255, 255),
+     0px 0px 30px rgb(167, 204, 209);
+
+    position: absolute;
+    top: 47%;
+    left: 50%;
+
+    color: rgb(231, 246, 253);
+}
+
+.Tag
+{
+    position: absolute;
+    transform: rotate(45deg);
+
+    overflow: hidden;
+
+    background-color: #ffffff7d;
+    box-shadow: 0px 0px 10px 1px rgba(0, 255, 193, 0.534);
+}
+
+.Tag:hover
+{
+    background-color: #3834347d;
+}
+
+/*タグクラスで使うスライドアウトアニメーション*/
+.Tag.isClick
+{
+    animation-name: SlideOut;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes SlideOut
+{
+    from
+    {
+        transform: translateX(0px) rotate(45deg);
+        transform-origin: 50 50;
+    }
+
+    to
+    {
+        transform: translateX(-2000px) rotate(405deg);
+        transform-origin: 50 50;
+    }
+}
+
+.Tag_text
+{
+    font-weight: 100;
+    font-family: 'Courier new';
+    text-shadow: 
+    0px 0px 15px rgb(100, 255, 255),
+    0px 0px 30px rgb(167, 204, 209);
+
+    color: white;
+
+    position: absolute;
+}
+
+.Tag_text.isClick
+{
+    animation-name: SlideOut;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.GameTag>div
+{
+    top: 29%; left: 6%;
+    width: 25vw; height: 25vw;
+}
+
+.GameTag>p
+{ 
+    font-size: 100px;
+    letter-spacing: 25px;
+    
+    top: 35.8%; left: 8%;
+}
+
+.ProfileTag>div
+{
+    top: 4%; left: 25%;
+    width: 18vw; height: 18vw;
+}
+
+.ProfileTag>p
+{ 
+    font-size: 70px;
+    letter-spacing: 5px;
+    
+    top: 10.8%;left: 25%;
+}
+
+.TopTag>div
+{
+    top: 4%; left: -6%;
+    width: 18vw; height: 18vw;
+}
+
+.TopTag>p
+{ 
+    font-size: 70px;
+    letter-spacing: 5px;
+    
+    top: 10.8%; left: 3%;
+}
+
+.aTag>div
+{
+    top: 68%; left: -6%;
+    width: 18vw; height: 18vw;
+}
+
+.aTag>p
+{ 
+    font-size: 70px;
+    letter-spacing: 5px;
+    
+    top: 73.8%; left: 1%;
+}
+
+.ThisPageTag>div
+{
+    top: 68%; left: 25%;
+    width: 18vw; height: 18vw;
+}
+
+.ThisPageTag>p
+{ 
+    font-size: 70px;
+    letter-spacing: 5px;
+    
+    top: 73.8%; left: 23%;
+}
