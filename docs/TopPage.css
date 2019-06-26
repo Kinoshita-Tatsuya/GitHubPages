@@ -26,7 +26,31 @@ html,body
     top: 47%;
     left: 50%;
 
+    overflow-x: hidden;
+
     color: rgb(231, 246, 253);
+}
+
+.Catchphrase.isClick
+{
+    animation-name: SlideLeftOut;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes SlideLeftOut
+{
+    from
+    {
+        transform: translateX(0px);
+        transform-origin: 50 50;
+    }
+
+    to
+    {
+        transform: translateX(4000px);
+        transform-origin: 50 50;
+    }
 }
 
 .Tag
@@ -88,13 +112,13 @@ html,body
     animation-fill-mode: forwards;
 }
 
-.GameTag>div
+#GameTag>div
 {
     top: 29%; left: 6%;
     width: 25vw; height: 25vw;
 }
 
-.GameTag>p
+#GameTag>p
 { 
     font-size: 100px;
     letter-spacing: 25px;
@@ -102,13 +126,13 @@ html,body
     top: 35.8%; left: 8%;
 }
 
-.ProfileTag>div
+#ProfileTag>div
 {
     top: 4%; left: 25%;
     width: 18vw; height: 18vw;
 }
 
-.ProfileTag>p
+#ProfileTag>p
 { 
     font-size: 70px;
     letter-spacing: 5px;
@@ -116,13 +140,13 @@ html,body
     top: 10.8%;left: 25%;
 }
 
-.TopTag>div
+#TopTag>div
 {
     top: 4%; left: -6%;
     width: 18vw; height: 18vw;
 }
 
-.TopTag>p
+#TopTag>p
 { 
     font-size: 70px;
     letter-spacing: 5px;
@@ -130,13 +154,13 @@ html,body
     top: 10.8%; left: 3%;
 }
 
-.aTag>div
+#aTag>div
 {
     top: 68%; left: -6%;
     width: 18vw; height: 18vw;
 }
 
-.aTag>p
+#aTag>p
 { 
     font-size: 70px;
     letter-spacing: 5px;
@@ -144,13 +168,13 @@ html,body
     top: 73.8%; left: 1%;
 }
 
-.ThisPageTag>div
+#ThisPageTag>div
 {
     top: 68%; left: 25%;
     width: 18vw; height: 18vw;
 }
 
-.ThisPageTag>p
+#ThisPageTag>p
 { 
     font-size: 70px;
     letter-spacing: 5px;

@@ -2,38 +2,39 @@
     <head>
       <meta charset="utf-8">
       <title>MyWebsite</title>
-      <link rel="stylesheet" href="MyWebsite.css">
-      <script type="text/javascript" src="TagClick.js"></script>
+      <link rel="stylesheet" href="TopPage.css">
+      <link rel="stylesheet" href="Games/Games.css">
     </head>
     
     <body>
     <img class="BackGround" src="Images/BackGround.png">
     <div class="Catchphrase">Aim High</div>
      
-    <section class="GameTag">
-        <div class="Tag" onclick="IsClickTag()"></div>
+    <section id="GameTag">
+        <div class="Tag" onclick="IsClickGameTag()"></div>
         <p class="Tag_text">Games</p>
     </section>
      
-    <section class="ProfileTag">
-        <div class="Tag" onclick="IsClickTag()"></div>
+    <section id="ProfileTag">
+        <div class="Tag" onclick="IsClickProfileTag()"></div>
         <p class="Tag_text">Profile</p>
     </section>
 
-    <section class="TopTag">
-        <div class="Tag" onclick="IsClickTag()"></div>
+    <section id="TopTag">
+        <div class="Tag" onclick="IsClickTopTag()"></div>
         <p class="Tag_text">Top</p>
     </section>
 
-    <section class="aTag">
+    <section id="aTag">
         <div class="Tag" onclick="IsClickTag()"></div>
         <p class="Tag_text">back</p>
     </section>
 
-    <section class="ThisPageTag">
-        <div class="Tag" onclick="IsClickTag()"></div>
+    <section id="ThisPageTag">
+        <div class="Tag" onclick="IsClickThisPageTag()"></div>
         <p class="Tag_text">this Page</p>
     </section>
 
+    <script type="text/javascript" src="TagClick.js"></script>
     </body>
   </html>

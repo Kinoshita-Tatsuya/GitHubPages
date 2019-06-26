@@ -1,0 +1,31 @@
+@keyframes SlideIn
+{
+    from
+    {
+        transform: translateX(-2000px);
+        transform-origin: 50 50;
+    }
+
+    to
+    {
+        transform: translateX(0px);
+        transform-origin: 50 50;
+    }
+}
+
+.Game_Description
+{
+    position: absolute;
+    top: 10px;
+    overflow: hidden;
+
+    background-color: #ffffff7d;
+    box-shadow: 0px 0px 10px 1px rgba(0, 255, 193, 0.534);
+}
+
+.Game_Description.SlideIn
+{
+    animation-name: SlideIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
