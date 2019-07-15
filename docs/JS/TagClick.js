@@ -42,11 +42,7 @@ const IsClickProfileTag = () =>
 
 const IsClickTopTag = () =>
 {
-    MoveAllTag();
-    setTimeout( () =>
-    {
-        Reload();
-    },3000)
+    Reload();
 }
 
 const IsClickThisPageTag= () =>
