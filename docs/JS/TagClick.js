@@ -45,7 +45,7 @@ const IsClickTopTag = () =>
     MoveAllTag();
     setTimeout( () =>
     {
-        
+        Reload();
     },3000)
 }
 
@@ -82,3 +82,8 @@ const ExplainGames = () =>
     SLLDescText.classList.add(SlideInClassName);
     gameTag.appendChild(SLLDescText);
 } 
+
+const Reload = () =>
+{
+    location.reload();
+}
