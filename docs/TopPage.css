@@ -1,6 +1,7 @@
 html,body
 {
     margin: 0 0;
+    overflow-x: hidden;
 }
 
 .BackGround
@@ -25,8 +26,6 @@ html,body
     position: absolute;
     top: 47%;
     left: 50%;
-
-    overflow-x: hidden;
 
     color: rgb(231, 246, 253);
 }
@@ -112,13 +111,13 @@ html,body
     animation-fill-mode: forwards;
 }
 
-#GameTag>div
+#GameTag>.Tag
 {
     top: 29%; left: 6%;
     width: 25vw; height: 25vw;
 }
 
-#GameTag>p
+#GameTag>.Tag_text
 { 
     font-size: 100px;
     letter-spacing: 25px;
@@ -126,13 +125,13 @@ html,body
     top: 35.8%; left: 8%;
 }
 
-#ProfileTag>div
+#ProfileTag>.Tag
 {
     top: 4%; left: 25%;
     width: 18vw; height: 18vw;
 }
 
-#ProfileTag>p
+#ProfileTag>.Tag_text
 { 
     font-size: 70px;
     letter-spacing: 5px;
@@ -140,13 +139,13 @@ html,body
     top: 10.8%;left: 25%;
 }
 
-#TopTag>div
+#TopTag>.Tag
 {
     top: 4%; left: -6%;
     width: 18vw; height: 18vw;
 }
 
-#TopTag>p
+#TopTag>.Tag_text
 { 
     font-size: 70px;
     letter-spacing: 5px;
@@ -154,13 +153,13 @@ html,body
     top: 10.8%; left: 3%;
 }
 
-#aTag>div
+#aTag>.Tag
 {
     top: 68%; left: -6%;
     width: 18vw; height: 18vw;
 }
 
-#aTag>p
+#aTag>.Tag_text
 { 
     font-size: 70px;
     letter-spacing: 5px;
@@ -168,13 +167,13 @@ html,body
     top: 73.8%; left: 1%;
 }
 
-#ThisPageTag>div
+#ThisPageTag>.Tag
 {
     top: 68%; left: 25%;
     width: 18vw; height: 18vw;
 }
 
-#ThisPageTag>p
+#ThisPageTag>.Tag_text
 { 
     font-size: 70px;
     letter-spacing: 5px;
