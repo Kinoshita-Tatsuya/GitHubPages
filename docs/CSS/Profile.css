@@ -1,0 +1,137 @@
+#ProfileTag
+{
+    font-weight: 100;
+    font-family: 'Courier new';
+
+    text-shadow: 
+    0px 0px 15px rgb(100, 255, 255),
+    0px 0px 30px rgb(167, 204, 209);
+    color: white;
+}
+
+.TitleProfile
+{
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: underline; 
+    position: absolute;
+    top: 10%;left: 5%;
+}
+
+.TitleProfile::before
+{
+    content: "Profile";
+}
+
+.TitleProfile.FadeIn
+{
+    animation-name: FadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.MyName
+{
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    position: absolute;
+    top: 25%;left: 15%;
+}
+
+.MyName::before
+{
+    content: "Kinoshita\00a0Tatsuya";
+
+    position: absolute;
+    left: 300%;
+}
+
+.MyName.FadeIn
+{
+    animation-name: FadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;   
+}
+
+.Birth
+{
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    position: absolute;
+    top: 35%;left: 15%;
+}   
+
+.Birth::before
+{
+    content: "1999/8/9";
+
+    position: absolute;
+    left: 300%;
+}
+
+.Birth.FadeIn
+{
+    animation-name: FadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;   
+}
+
+.Hobby
+{
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    position: absolute;
+    top: 47%;left: 15%;
+}
+
+.Hobby::before
+{
+    content: "リズムゲーム、バレーボール";
+
+    position: absolute;
+    width: 100vw;
+    left: 230%;
+}
+
+.Hobby.FadeIn
+{
+    animation-name: FadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;   
+}
+
+.JumpTopPage
+{
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    position: absolute;
+    top: 75%;left: 44%; 
+    
+    cursor: pointer;
+}
+
+.JumpTopPage.FadeIn
+{
+    animation-name: FadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;     
+}
+
+@keyframes FadeIn 
+{
+    from 
+    {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    
+    to 
+    {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+}
