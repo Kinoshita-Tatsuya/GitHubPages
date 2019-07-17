@@ -19,6 +19,13 @@
     top: 10%;left: 5%;
 }
 
+.Title_Contact.Scale
+{
+    animation-name: Scale;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+
 .GitHub_Icon
 {
     position: absolute;
@@ -49,6 +56,13 @@
 .GitHub_Icon:hover
 {
     cursor: pointer;
+}
+
+.GitHub_Icon.Scale
+{
+    animation-name: Scale;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
 }
 
 .Twitter_Icon
@@ -83,6 +97,13 @@
     cursor: pointer;
 }
 
+.Twitter_Icon.Scale
+{
+    animation-name: Scale;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 .From_Contact_To_Toppage
 {
     font-size: 30px;
@@ -95,4 +116,26 @@
     top: 75%; left: 40%;
 
     cursor: pointer;
+}
+
+.From_Contact_To_Toppage.Scale
+{
+    animation-name: Scale;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Scale
+{
+    From
+    {
+        transform: scale(2);
+        opacity: 0;
+    }
+
+    to
+    {
+        transform: scale(1);   
+        opacity: 1;
+    }
 }
