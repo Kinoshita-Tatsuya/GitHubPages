@@ -1,14 +1,20 @@
 html,body
 {
     margin: 0 0;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar
+{
+    display: none;
 }
 
 .BackGround
 {
     width: 100%;
     background-size: cover;
-
+    
+    position: fixed;
     filter: blur(6px);
 }
 
@@ -22,12 +28,11 @@ html,body
     text-shadow: 
      0px 0px 15px rgb(100, 255, 255),
      0px 0px 30px rgb(167, 204, 209);
+    color: rgb(231, 246, 253);
 
     position: absolute;
     top: 47%;
     left: 50%;
-
-    color: rgb(231, 246, 253);
 }
 
 .Catchphrase.isClick
@@ -66,6 +71,7 @@ html,body
 .Tag:hover
 {
     background-color: #3834347d;
+    cursor: pointer;
 }
 
 /*タグクラスで使うスライドアウトアニメーション*/
