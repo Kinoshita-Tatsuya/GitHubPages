@@ -1,0 +1,98 @@
+#ContactTag
+{
+    font-weight: 100;
+    font-family: 'Courier new';
+    
+    text-shadow: 
+    0px 0px 15px rgb(100, 255, 255),
+    0px 0px 30px rgb(167, 204, 209);
+    color: white;
+    
+}
+
+.Title_Contact
+{
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: underline; 
+    position: absolute;
+    top: 10%;left: 5%;
+}
+
+.GitHub_Icon
+{
+    position: absolute;
+    top: 43%; left: 23%;
+
+    width: 15%;
+    height: 15%;
+    
+    background-image:url(../Images/GitHubLogo.png);
+    background-size: contain;
+    
+    background-color: #ffffff7d;
+    box-shadow: 0px 0px 10px 1px rgba(0, 255, 193, 0.534);
+}
+
+.GitHub_Icon::before
+{
+    content: "GitHub";
+
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+
+    position: absolute;
+    top: 105%;left: 10%;
+}
+
+.GitHub_Icon:hover
+{
+    cursor: pointer;
+}
+
+.Twitter_Icon
+{
+    position: absolute;
+    top: 40%; left: 63%;
+
+    width: 9%;
+    height: 18%;
+    
+    background-image:url(../Images/TwitterLogo.png);
+    background-size: contain;
+    
+    background-color: #ffffff7d;
+    box-shadow: 0px 0px 10px 1px rgba(0, 255, 193, 0.534);   
+}
+
+.Twitter_Icon::before
+{
+    content: "Twitter";
+
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+
+    position: absolute;
+    top: 105%;left: -50px;
+}
+
+.Twitter_Icon:hover
+{
+    cursor: pointer;
+}
+
+.From_Contact_To_Toppage
+{
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    
+    margin: 100px;
+
+    position: absolute;
+    top: 75%; left: 40%;
+
+    cursor: pointer;
+}

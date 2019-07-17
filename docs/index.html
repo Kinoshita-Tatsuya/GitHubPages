@@ -5,6 +5,7 @@
       <link rel="stylesheet" href="CSS/TopPage.css">
       <link rel="stylesheet" href="CSS/Games.css">
       <link rel="stylesheet" href="CSS/Profile.css">
+      <link rel="stylesheet" href="CSS/Contact.css">
     </head>
     
     <body>
@@ -26,18 +27,19 @@
             <p class="Tag_text" onclick="Reload()">Top</p>
         </section>
 
-        <section id="aTag">
-            <div class="Tag" onclick="MoveAndDestory()"></div>
-            <p class="Tag_text" onclick="MoveAndDestory()">back</p>
+        <section id="ContactTag">
+            <div class="Tag" onclick="MoveAndDestory(); ShowContacts()"></div>
+            <p class="Tag_text" onclick="MoveAndDestory(); ShowContacts()">Contact</p>
         </section>
 
         <section id="ThisPageTag">
             <div class="Tag" onclick="MoveAndDestory(); JumpDescriptionPage();"></div>
-            <p class="Tag_text" onclick="MoveAndDestory()">This Page</p>
+            <p class="Tag_text" onclick="MoveAndDestory()">Page</p>
         </section>
     
     <script type="text/javascript" src="JS/TopPage.js"></script>
     <script type="text/javascript" src="JS/Profile.js"></script>
     <script type="text/javascript" src="JS/Games.js"></script>
+    <script type="text/javascript" src="JS/Contact.js"></script>
     </body>
   </html>

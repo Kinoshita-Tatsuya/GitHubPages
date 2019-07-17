@@ -159,23 +159,23 @@ body::-webkit-scrollbar
     top: 10.8%; left: 3%;
 }
 
-#aTag>.Tag
+#ContactTag>.Tag
 {
-    top: 68%; left: -6%;
+    top: 68%; left: 25%;
     width: 18vw; height: 18vw;
 }
 
-#aTag>.Tag_text
+#ContactTag>.Tag_text
 { 
     font-size: 70px;
     letter-spacing: 5px;
     
-    top: 73.8%; left: 1%;
+    top: 73.8%; left: 25.5%;  
 }
 
 #ThisPageTag>.Tag
 {
-    top: 68%; left: 25%;
+    top: 68%; left: -6%;
     width: 18vw; height: 18vw;
 }
 
@@ -184,5 +184,5 @@ body::-webkit-scrollbar
     font-size: 70px;
     letter-spacing: 5px;
     
-    top: 73.8%; left: 23%;
+    top: 73.8%; left: 1%;
 }
