@@ -13,7 +13,19 @@
     }
 }
 
-.Game_Description
+#GameTag
+{
+    font-weight: 100;
+    font-family: 'Courier new';
+
+    text-shadow: 
+    0px 0px 15px rgb(100, 255, 255),
+    0px 0px 30px rgb(167, 204, 209);
+    color: white;
+
+}
+
+.Title_Game
 {
     position: absolute;
     top: 5%; left: 3%;
@@ -22,32 +34,25 @@
     height: 10%;
 }
 
-.Game_Description::before
+.Title_Game::before
 {
     content: "Games";
 
-    font-weight: 100;
-    font-family: 'Courier new';
     font-size: 60px;
     letter-spacing: 15px;
-
-    text-shadow: 
-    0px 0px 15px rgb(100, 255, 255),
-    0px 0px 30px rgb(167, 204, 209);
-    color: white;
 
     position: absolute;
     top: 20%; left: 7%;
 }
 
-.Game_Description.SlideIn
+.Title_Game.SlideIn
 {
     animation-name: SlideIn;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
-.StarlightLine_Description
+.SLL_Img
 {
     position: absolute;
     top: 20%; left: 3%;
@@ -62,54 +67,116 @@
     box-shadow: 0px 0px 10px 1px rgba(0, 255, 193, 0.534);
 }
 
-.StarlightLine_Description:hover
+.SLL_Img:hover
 {
     cursor: pointer;
 }
 
-.StarlightLine_Description::before
+.SLL_Img::before
 {
     content: "StarLight\00a0Line";
 
-    font-weight: 100;
-    font-family: 'Courier new';
     font-size: 60px;
     letter-spacing: 3px;
     text-decoration: underline;
-
-    text-shadow: 
-    0px 0px 15px rgb(100, 255, 255),
-    0px 0px 30px rgb(167, 204, 209);
-    color: white;
 
     position: absolute;
     top: 0;left: 134%;
 }
 
-.StarlightLine_Description.SlideIn
+.SLL_Img.SlideIn
 {
     animation-name: SlideIn;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
-.SLLText
+.SLL_Text
 {
-    font-weight: 100;
-    font-family: 'Courier new';
     font-size: 30px;
     letter-spacing: 3px;
-
-    text-shadow: 
-    0px 0px 15px rgb(100, 255, 255),
-    0px 0px 30px rgb(167, 204, 209);
-    color: white;
 
     position: absolute;
     top: 32%;left: 50%;
 }
 
-.SLLText.SlideIn
+.SLL_Text.SlideIn
+{
+    animation-name: SlideIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.LB_Img
+{
+    position: absolute;
+    top: 75%; left: 3%;
+
+    width: 40%;
+    height: 45%;
+    
+    background-image:url(../Images/Lethal_Blast.png);
+    background-size: contain;
+    
+    background-color: #ffffff7d;
+    box-shadow: 0px 0px 10px 1px rgba(0, 255, 193, 0.534);
+}
+
+.LB_Img:hover
+{
+    cursor: pointer;
+}
+
+.LB_Img::before
+{
+    content: "Leathal\00a0 Blast";
+    
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+
+    position: absolute;
+    top: 0;left: 134%;
+}
+
+.LB_Img.SlideIn
+{
+    animation-name: SlideIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.LB_Text
+{
+    font-size: 30px;
+    letter-spacing: 3px;
+
+    position: absolute;
+    top: 90%;left: 50%;
+}
+
+.LB_Text.SlideIn
+{
+    animation-name: SlideIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.From_Games_To_TopPage
+{
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    
+    margin: 100px;
+
+    position: absolute;
+    top: 120%; left: 40%;
+
+    cursor: pointer;
+}
+
+.From_Games_To_TopPage.SlideIn
 {
     animation-name: SlideIn;
     animation-duration: 2s;
