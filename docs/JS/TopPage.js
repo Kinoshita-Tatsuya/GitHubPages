@@ -1,3 +1,8 @@
+window.onload = () =>
+{
+    Scrollable(false);   
+}
+
 const MoveAllTag = () =>
 {
     let TagList = document.getElementsByClassName("Tag");
@@ -25,6 +30,14 @@ const DestroyByTags = () =>
     },1000)   
 }
 
+const JumpDescriptionPage = () =>
+{
+    setTimeout(() =>
+    {
+        location.href = "HTML/PageDescription.html";
+    },1000);
+}
+
 const MoveAndDestory = () =>
 {
     MoveAllTag();
@@ -35,3 +48,26 @@ const Reload = () =>
 {
     location.reload();
 }
+
+const NotScrollable = () =>
+{
+    
+}
+
+const Scrollable = (boolean) =>
+{
+    if(boolean)
+    {
+        document.removeEventListener('wheel', ScrollEvent, {passive: false}); 
+    }
+    else
+    {
+        document.addEventListener('wheel', ScrollEvent, {passive: false});
+    }
+}
+
+const ScrollEvent = event =>
+{
+    event.preventDefault();
+}
+
