@@ -9,7 +9,7 @@
     color: white;
 }
 
-.TitleProfile
+.Title_Profile
 {
     font-size: 60px;
     letter-spacing: 3px;
@@ -18,12 +18,12 @@
     top: 10%;left: 5%;
 }
 
-.TitleProfile::before
+.Title_Profile::before
 {
     content: "Profile";
 }
 
-.TitleProfile.FadeIn
+.Title_Profile.FadeIn
 {
     animation-name: FadeIn;
     animation-duration: 2s;
