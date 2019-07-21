@@ -30,14 +30,6 @@ const DestroyByTags = () =>
     },1000)   
 }
 
-const JumpDescriptionPage = () =>
-{
-    setTimeout(() =>
-    {
-        location.href = "HTML/PageDescription.html";
-    },1000);
-}
-
 const MoveAndDestory = () =>
 {
     MoveAllTag();
@@ -47,11 +39,6 @@ const MoveAndDestory = () =>
 const Reload = () =>
 {
     location.reload();
-}
-
-const NotScrollable = () =>
-{
-    
 }
 
 const Scrollable = (boolean) =>
