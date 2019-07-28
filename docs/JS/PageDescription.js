@@ -14,7 +14,7 @@ const CreatePageDescriptionDivs = () =>
     title.innerText = "頑張ったところ";
     thisPageTag.appendChild(title);
 
-    let innerText = 
+    let textList = 
     [
         "スクロールをできるページとできないページを分けたところ",
         "ページごとにJSファイルを作成し、そのページで何をやっているのかをわかりやすくしたところ",
@@ -23,10 +23,10 @@ const CreatePageDescriptionDivs = () =>
         "いかにおしゃれにできるかを考えて位置調整や色の調整をしたところ"
     ];
 
-    innerText.forEach((item ,index) =>
+    textList.forEach((item) =>
     {
         let elm = document.createElement("li");
-        elm.innerText = innerText[index];
+        elm.innerText = item;
         thisPageTag.appendChild(elm);
     });
 
