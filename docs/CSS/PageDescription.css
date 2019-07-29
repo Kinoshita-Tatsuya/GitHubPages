@@ -2,6 +2,7 @@ h2
 {
     font-weight: 100;
     font-family: 'Courier new';
+    text-decoration: underline;
 
     text-shadow: 
     0px 0px 15px rgb(100, 255, 255),
@@ -10,6 +11,8 @@ h2
     
     font-size: 45px;
     letter-spacing: 5px;
+
+    margin: 10% 0 0 50px;
 
     animation-name: SlideFadeIn;
     animation-duration: 2s;
@@ -29,6 +32,8 @@ li
     font-size: 30px;
     letter-spacing: 5px;
 
+    margin: 30px 0 0 10%;
+
     animation-name: SlideFadeIn;
     animation-duration: 2s;
     animation-fill-mode: forwards;     
@@ -47,7 +52,7 @@ li
     font-size: 45px;
     letter-spacing: 5px;
 
-    margin-top: 30px; 
+    margin-top: 150px; 
     text-align: center;
     text-decoration: underline;
 
